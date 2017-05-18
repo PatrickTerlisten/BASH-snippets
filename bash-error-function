@@ -1,0 +1,6 @@
+
+function error()
+  {
+    echo `date +%d.%m.%Y%t%H:%M:%S` "    ERROR:" $1 | tee -a ${LOGFILE}
+    exit 1
+  }
