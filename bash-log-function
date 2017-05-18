@@ -1,0 +1,4 @@
+function log()
+  {
+    echo `date +%d.%m.%Y%t%H:%M:%S` "    LOG:" $1 | tee -a ${LOGFILE}
+  }
